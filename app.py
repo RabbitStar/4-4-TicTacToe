@@ -10,9 +10,9 @@ with open('/Users/lavesh/PycharmProjects/tictactoe/filename.pickle', 'rb') as ha
     b = pickle.load(handle)
 a1.values = b
 
-with open('/Users/lavesh/PycharmProjects/tictactoe/filename1.pickle', 'rb') as handle:
-    c = pickle.load(handle)
-a2.values = c
+# with open('/Users/lavesh/PycharmProjects/tictactoe/filename1.pickle', 'rb') as handle:
+#     c = pickle.load(handle)
+a2.values = b
 
 @app.route('/')
 def index():
